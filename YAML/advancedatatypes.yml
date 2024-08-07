@@ -1,0 +1,80 @@
+ if we are writing list it has to be in sequence. 
+
+ example. 
+
+ students: !!sequence 
+
+ - Name
+ - Roll number 
+ - marks
+
+ #another methood  
+
+ subjects: [Urdu, telugu, english, maths.]
+
+ # some of the keys of the sequnces will be empty. 
+
+# sparse seq. 
+
+sparse seq:
+
+ - hi 
+ - how 
+ - are 
+ -
+
+ - null
+ -sup 
+
+ #to represent sub items of the list we have to do sub sequesnce.
+
+ #nested sequesnce 
+
+-
+ - mago 
+ - apple 
+ - banana
+-
+ - marks
+ - roll
+ - data
+
+ # key  value pairs are called maps. 
+
+ !!maps
+ # nested maps means map in maps. 
+
+ name: nasar 
+ roles: {age: 24, job: IT}
+
+ # pairs : keys may have duplicate values. 
+
+ #This will be an array of hashtable. 
+
+ pair example: !!pairs [job: IT, job: devops]
+
+ #set will allow you to have unique values. 
+
+ names : !!set
+
+  ? kunal
+  ? vivek
+  ? vishwata
+
+# if we want to represent sequence as a value then we have to use dictionary !!omap
+people: !!omap
+  - shoaib:
+     name: mohd nasar
+     age: 24
+     job: DeOps
+  
+  - AKbar:
+     name: zaid 
+     age: 23
+     job: !!null
+
+  
+
+
+
+

@@ -1,0 +1,37 @@
+#String variables. 
+
+# we can wrint strings in 3 different methods as follows. 
+
+name : Mohd Nasar
+
+age : "24"
+
+job : 'Devops engineer'
+
+bio:| 
+Hi my name is Nasar and I am the best DevOps engineer in my team
+there are many others who are good in DevOps. 
+
+message:> 
+hi 
+heelo 
+how are you
+
+
+
+# how to specify the data type. 
+
+numbers: !!int 89 
+binarynum: !!int 0b11001
+octalnumber: !!int 06445
+
+floatvalue: !!floatvalue 89898.008
+
+
+str: !!str " hi how are you doing. "
+
+#nul 
+
+surname: !!null 
+
+

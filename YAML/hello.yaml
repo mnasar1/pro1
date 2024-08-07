@@ -1,0 +1,23 @@
+"apple" : "it is very good for health"
+
+1 : "employee id "
+---
+
+# yamel is case sensitive.
+
+
+#lists 
+---
+- apple 
+- mango 
+- avacado
+
+---
+
+cities: 
+
+- hyd 
+- rcb
+- kkr
+
+...
